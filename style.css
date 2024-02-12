@@ -1,5 +1,4 @@
-*{
-  margin:0;
+div{
   box-sizing: border-box;
 }
 body{
@@ -15,22 +14,20 @@ body{
 h1{
   font-size:2vw;
 }
-.main-box{
-  border:10px solid white;
-  border-radius: 50px;
+.container{
+  border: 10px solid white;
+  border-radius: 20px;
   text-align: center;
-  margin:0 auto;
   background-color: rgba(247, 243, 242, 0.7);
-  width:100%;
-  box-sizing: border-box;
 }
+
 .top-title{
   font-size: 3vw;
   font-weight: bold;
   color: blue;
 }
 .middle-title{
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: bold;
 }
 .bottom-title{
@@ -39,16 +36,16 @@ h1{
 }
 h1{
   margin-bottom:10px;
-  font-size:2rem;
+  font-size:1.5rem;
 }
 .image{
   width:20vw;
   height:20vw;
 }
 .user-input{
-  width:50%;
+  width:100%;
   height:80px;
-  font-size:2rem;
+  font-size:2vw;
   text-align: center;
 }
 .button-style{
@@ -81,35 +78,23 @@ h1{
   align-items: center;
   padding:10px;
 }
-@media(min-width: 576px){
-  .main-box{
-    max-width:540px;
-  }
-  
-}
-@media(min-width: 760px){
-  .main-box{
-    max-width:700px;
-  }
-}
-@media(min-width:1200px){
-  .main-box{
-    max-width:1140px;
-  }
-}
+
 @media screen and (max-width:48rem){
   .top-title{
-    font-size:10vw;
+    font-size:8vw;
   }
   .middle-title{
-    font-size:12vw;
+    font-size:10vw;
   }
   .bottom-title{
     font-size:8vw;
   }
   .image{
-    width:200px;
-    height:200px;
+    width:150px;
+    height:150px;
+  }
+  .user-input{
+    font-size:1.5rem;
   }
 }
 

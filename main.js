@@ -7,6 +7,7 @@ let chances = 20;
 let gameOver = false;
 let chanceArea = document.getElementById('chance-area');
 let history=[];
+let resultImg = document.getElementById('result-image');
 
 playButton.addEventListener('click',play);
 resetButton.addEventListener('click',reset);
@@ -36,6 +37,7 @@ function play(){
     resultArea.textContent = 'DOWN!!';
   }else{
     resultArea.textContent = '지갑을 꺼내시오';
+    resultImg.src = 'https://image.fmkorea.com/files/attach/new/20190117/2895716/496953987/1528740242/bbac1959c1e8b0763f164146cda1bfbe.jpg'
     gameOver = true;
   }
   history.push(userValue);

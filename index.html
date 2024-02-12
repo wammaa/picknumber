@@ -8,18 +8,22 @@
   <link rel="stylesheet" href="style.css">  
 </head>
 <body>
-  <div class="main-box">
+  <div class="container">
     <h1 class="top-title">지갑 거덜내는</h1>
     <h1 class="middle-title">술값내기</h1>
     <h1 class="bottom-title">죽음의 번호피하기</h1>
     <div>
-      <img src="https://images.ddengle.com/files/attach/images/11334861/135/413/011/26821b5ed009ff9dde167107a5262829.jpeg" class="image">
+      <img src="https://images.ddengle.com/files/attach/images/11334861/135/413/011/26821b5ed009ff9dde167107a5262829.jpeg" id="result-image" class="image">
       <h1 id="result-area">거덜나기 싫으면 피해라</h1>
     </div>
     <h2 id="chance-area">남은 기회:20</h2>
-    <div class="input-line">
-      <input type="number" id="user-input" class="user-input" placeholder="1부터 500사이의 숫자">
-      <button id="play-button" class="button-style button-go">GO</button>
+    <div class="input-line row">
+      <div class="col-md-6 col-sm-12">
+        <input type="number" id="user-input" class="user-input mb-10" placeholder="1부터 500사이의 숫자">
+      </div>
+      <div class="col-md-2 col-sm-12">
+        <button id="play-button" class="button-style button-go">GO</button>
+      </div>
     </div>
   </div>    
   <button id="reset-button" class="button-style button-reset">RESET</button>
