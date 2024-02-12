@@ -1,0 +1,116 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "East Sea Dokdo", cursive;
+  background-image: url(https://okta-numberguessing-game.netlify.app/image/soju.jpeg);
+}
+h1{
+  font-size:2vw;
+}
+.main-box{
+  border:10px solid white;
+  border-radius: 50px;
+  text-align: center;
+  margin:0 auto;
+  background-color: rgba(247, 243, 242, 0.7);
+  width:100%;
+  box-sizing: border-box;
+}
+.top-title{
+  font-size: 3vw;
+  font-weight: bold;
+  color: blue;
+}
+.middle-title{
+  font-size: 4vw;
+  font-weight: bold;
+}
+.bottom-title{
+  font-size: 3vw;
+  font-weight: bold;
+}
+h1{
+  margin-bottom:10px;
+  font-size:2rem;
+}
+.image{
+  width:20vw;
+  height:20vw;
+}
+.user-input{
+  width:50%;
+  height:80px;
+  font-size:2rem;
+  text-align: center;
+}
+.button-style{
+  height: 80px;
+  width: 100px;
+  margin-top: 5px;
+  border-radius: 50px;
+  font-size: 30pt;
+  font-weight: bold;
+}
+.button-go{
+  color: white;
+  background-color: greenyellow;
+  border:none;
+  margin:0 20px;
+}
+.button-reset{
+  color: #212529;
+  background-color: #ffc107;
+  border: none;
+  width:200px;
+  margin-top:30px;
+}
+.button-style:hover{
+  scale:1.2;
+}
+.input-line{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+}
+@media(min-width: 576px){
+  .main-box{
+    max-width:540px;
+  }
+  
+}
+@media(min-width: 760px){
+  .main-box{
+    max-width:700px;
+  }
+}
+@media(min-width:1200px){
+  .main-box{
+    max-width:1140px;
+  }
+}
+@media screen and (max-width:48rem){
+  .top-title{
+    font-size:10vw;
+  }
+  .middle-title{
+    font-size:12vw;
+  }
+  .bottom-title{
+    font-size:8vw;
+  }
+  .image{
+    width:200px;
+    height:200px;
+  }
+}
+
+  
